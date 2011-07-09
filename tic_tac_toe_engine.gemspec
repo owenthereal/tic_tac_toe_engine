@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = TicTacToeEngine::VERSION
   s.authors     = ["Jingwen Owen Ou"]
   s.email       = ["jingweno@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/jingweno/tic_tac_toe_engine"
   s.summary     = %q{A Tic Tac Toe engine.}
   s.description = %q{A Tic Tac Toe engine.}
 
