@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Jingwen Owen Ou"]
   s.email       = ["jingweno@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A Tic Tac Toe engine.}
+  s.description = %q{A Tic Tac Toe engine.}
 
   s.rubyforge_project = "tic_tac_toe_engine"
 
