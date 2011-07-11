@@ -15,4 +15,12 @@ You can start a console Tic Tac Toe game like this:
 
     require 'tic_tac_toe_engine'
 
-    TicTacToeEngine::Game.start(TicTacToeEngine::Player::Human, TicTacToeEngine::Player::Computer, TicTacToeEngine::Board::3x3, TicTacToeEngine::UI::Console)
+    options = {
+      :player_o => TicTacToeEngine::Player::Human.new,
+      :player_x => TicTacToeEngine::Player::EasyComputer.new,
+      :board => TicTacToeEngine::Board::3x3.new,
+      :listeners => [ TicTacToeEngine::UI::Console.new ]
+    }
+
+    game = TicTacToeEngine::Game.start(options)
+    game.stop
